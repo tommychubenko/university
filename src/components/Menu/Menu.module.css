@@ -1,0 +1,17 @@
+.nav {
+    margin-bottom: auto;
+    padding: 12px 0;
+
+}
+
+/* .navList {}
+
+.navItem {} */
+
+.navLink {
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px 25px;
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+.sectionTitle {
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.img {
+    width: 24px;
+    height: 24px;
+}
+
+.right {
+    composes: sectionTitle;
+    justify-content: flex-end;
+}
+
+.content {
+    margin-bottom: 32px;
+}

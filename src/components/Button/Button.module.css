@@ -1,0 +1,30 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+
+    background-color: var(--primary);
+
+    font-family: var(--font-Montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+
+    color: var(--white);
+    border: 0;
+    transition: background-color 250ms linear;
+
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--primaryHover);
+}

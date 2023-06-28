@@ -1,0 +1,7 @@
+.generalCardWrapper {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 60px;
+  }

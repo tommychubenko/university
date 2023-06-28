@@ -1,0 +1,28 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 100vh;
+    height: 100%;
+    padding-bottom: 12px;
+    background-color: var(--white);
+}
+
+.logoContainer {
+    background-color: var(--logo-color);
+    height: 80px;
+}
+
+
+
+.user {
+    /* composes: navLink; */
+    padding: 12px 25px;
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+
+.userName {
+    font-weight: 700;
+}
