@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import s from './Button.module.css';
 import plusIcon from '../../assets/images/plusIcon.svg';
 
-const Button = ({ name, onClick, className }) => {
+const Button = ({ name, onClick, className, ...restProps }) => {
   return (
-    <button className={cn(s.button, className)} onClick={onClick} type="button">
+    <button className={cn(s.button, className)} onClick={onClick} type="button" {...restProps}>
       <img src={plusIcon} alt="plus" /> {name}
     </button>
   );
@@ -14,7 +14,7 @@ const Button = ({ name, onClick, className }) => {
 Button.propTypes = {
     className : PropTypes.string,
     name: PropTypes.string.isRequired,
-    onClick: PropTypes.func.isRequired
+    onClick: PropTypes.func
 }
 
 export default Button;
