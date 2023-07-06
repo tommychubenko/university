@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/university/static/css/main.7acaea2f.css",
-    "main.js": "/university/static/js/main.07d3183d.js",
+    "main.css": "/university/static/css/main.2ded3c99.css",
+    "main.js": "/university/static/js/main.8a495e14.js",
+    "static/media/faculty.svg": "/university/static/media/faculty.ce83b786b3721d8b979b3f617d0c3481.svg",
+    "static/media/university-delete.svg": "/university/static/media/university-delete.b793057ef5138d6f688f60a986a9e705.svg",
+    "static/media/dots.svg": "/university/static/media/dots.bd8137b8c12b4c98ac3824f408cb00cb.svg",
+    "static/media/university-edit.svg": "/university/static/media/university-edit.68042d9a7d6d4a9fc2f256e4735285f5.svg",
     "index.html": "/university/index.html",
-    "main.7acaea2f.css.map": "/university/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/university/static/js/main.07d3183d.js.map"
+    "static/media/mock-user-ava.svg": "/university/static/media/mock-user-ava.025ac78724f256cf15f107ec81d042f7.svg",
+    "static/media/plusIcon.svg": "/university/static/media/plusIcon.b5a28a21e6b89d6c77e1d6428d6a2ac2.svg",
+    "static/media/tutors-location.svg": "/university/static/media/tutors-location.ba70058830d310cddfa8ba0ff7c3e96b.svg",
+    "static/media/tutors-phone.svg": "/university/static/media/tutors-phone.8277ec808d80f37c6bb366b9744bf12e.svg",
+    "static/media/univercity.svg": "/university/static/media/univercity.160ce0ffe9f65f3f1811895de9e8090f.svg",
+    "static/media/tutors-email.svg": "/university/static/media/tutors-email.f1340bed32c208dfd82a9dc2e6402c8a.svg",
+    "main.2ded3c99.css.map": "/university/static/css/main.2ded3c99.css.map",
+    "main.8a495e14.js.map": "/university/static/js/main.8a495e14.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.2ded3c99.css",
+    "static/js/main.8a495e14.js"
   ]
 }
