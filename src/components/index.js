@@ -10,3 +10,5 @@ export {default as GeneralCard} from './GeneralCard/GeneralCard'
 export {default as GeneralCardList} from './GeneralCardList/GeneralCardList'
 export {default as TeacherForm} from './TeacherForm/TeacherForm'
 export {default as WidgetForm} from './WidgetForm/WidgetForm'
+export {default as PageNotFound} from './PageNotFound/PageNotFound'
+export {default as DepartamentInfo} from "./DepartamentInfo/DepartamentInfo"

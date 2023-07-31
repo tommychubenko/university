@@ -4,12 +4,29 @@ import s from './GeneralCardList.module.css';
 
 import React from 'react';
 
-function GeneralCardList({ list = [], onOpenDropMenu }) {
+function GeneralCardList({
+  list = [],
+  onOpenDropMenu,
+  onEditCard = () => {},
+  onDeleteCard,
+  onOpenDetails = () => {},
+  withDetails = false
+}) {
   return (
     <div className={s.generalCardWrapper}>
       {list.length > 0 &&
-        list.map(({ text }) => (
-          <GeneralCard text={text} onOpenDropMenu={onOpenDropMenu} key={text} />
+        list.map(({ text, relation, id }) => (
+          <GeneralCard
+            text={text}
+            onOpenDropMenu={onOpenDropMenu}
+            key={text}
+            id={id}
+            onEditCard={onEditCard}
+            onDeleteCard={onDeleteCard}
+            relation={relation}
+            onOpenDetails={onOpenDetails}
+            withDetails = {withDetails}
+          />
         ))}
     </div>
   );
@@ -21,7 +38,11 @@ GeneralCardList.propTypes = {
       text: PropTypes.string.isRequired,
     }).isRequired
   ).isRequired,
+  onEditCard: PropTypes.func,
+  onOpenDetail: PropTypes.func,
   onOpenDropMenu: PropTypes.func.isRequired,
+  onDeleteCard: PropTypes.func.isRequired,
+  withDetails:PropTypes.bool
 };
 
 export default GeneralCardList;

@@ -7,5 +7,5 @@ export const menuConfig = [
     text: 'Університет',
     to: '/univercity',
   },
-  { img: faculty, text: 'Факультети', to: '/faculties' },
+  { img: faculty, text: 'Факультети', to: '/departaments' },
 ];
